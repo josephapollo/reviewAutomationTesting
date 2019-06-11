@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Automation Script " duration-ms="8266" started-at="2019-06-11T23:11:36Z" finished-at="2019-06-11T23:11:44Z">
+    <groups>
+    </groups>
+    <test name="Amazone Home" duration-ms="8266" started-at="2019-06-11T23:11:36Z" finished-at="2019-06-11T23:11:44Z">
+      <class name="testTitle.TestHomePge">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testTitle.TestHomePge@5d624da6]" name="setUp" is-config="true" duration-ms="7996" started-at="2019-06-11T23:11:36Z" finished-at="2019-06-11T23:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:testTitle.TestHomePge@5d624da6]" name="getTitle" duration-ms="33" started-at="2019-06-11T23:11:44Z" finished-at="2019-06-11T23:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testTitle.TestHomePge@5d624da6]" name="cleanUp" is-config="true" duration-ms="195" started-at="2019-06-11T23:11:44Z" finished-at="2019-06-11T23:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- testTitle.TestHomePge -->
+    </test> <!-- Amazone Home -->
+  </suite> <!-- Amazon Automation Script  -->
+</testng-results>
